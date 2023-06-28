@@ -33,7 +33,7 @@ ashan.addBalance(500)
 ashan.minusBalance(50)
 var work = Wallet.shared
 work.addBalance(50000000)
-ashan.getBalance()
+
 
 
 
