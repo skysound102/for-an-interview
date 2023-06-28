@@ -262,9 +262,4 @@ struct User {
 var user = User(name: "Mikle", phone: 3444444)
 let user2 = User(name: "Olga", phone: 6555555)
 
-user = user2
-user.name
-user.phone = 1
-user2.phone
-user
-user2
+
