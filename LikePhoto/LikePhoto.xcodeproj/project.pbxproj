@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA58DDEC98BD6A05A88A814 /* Pods_LikePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8090839EA56F9B549A07EDFE /* Pods_LikePhoto.framework */; };
+		AC27FF842A47530200AE1DF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27FF832A47530200AE1DF9 /* TableViewController.swift */; };
+		AC541C0C2A3CB83600946F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC541C0B2A3CB83600946F21 /* AppDelegate.swift */; };
+		AC541C0E2A3CB83600946F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC541C0D2A3CB83600946F21 /* SceneDelegate.swift */; };
+		AC541C102A3CB83600946F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC541C0F2A3CB83600946F21 /* ViewController.swift */; };
+		AC541C152A3CB83700946F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC541C142A3CB83700946F21 /* Assets.xcassets */; };
+		AC541C182A3CB83700946F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC541C162A3CB83700946F21 /* LaunchScreen.storyboard */; };
+		AC541C202A3CC50400946F21 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC541C1F2A3CC50400946F21 /* RegistrationView.swift */; };
+		AC541C262A40AA0700946F21 /* ServiceNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC541C252A40AA0700946F21 /* ServiceNew.swift */; };
+		AC541C2A2A4327F000946F21 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC541C292A4327F000946F21 /* GeneralView.swift */; };
+		AC9C7D9E2A50BCA500736A43 /* LikePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C7D9D2A50BCA500736A43 /* LikePhotoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9C7D9F2A50BCA500736A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC541C002A3CB83600946F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC541C072A3CB83600946F21;
+			remoteInfo = LikePhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4C4990888906916C3BAE28 /* Pods-LikePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikePhoto.release.xcconfig"; path = "Target Support Files/Pods-LikePhoto/Pods-LikePhoto.release.xcconfig"; sourceTree = "<group>"; };
+		8090839EA56F9B549A07EDFE /* Pods_LikePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC27FF832A47530200AE1DF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AC541C082A3CB83600946F21 /* LikePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC541C0B2A3CB83600946F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC541C0D2A3CB83600946F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC541C0F2A3CB83600946F21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC541C142A3CB83700946F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC541C172A3CB83700946F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC541C192A3CB83700946F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC541C1F2A3CC50400946F21 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AC541C252A40AA0700946F21 /* ServiceNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceNew.swift; sourceTree = "<group>"; };
+		AC541C292A4327F000946F21 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		AC9C7D9B2A50BCA500736A43 /* LikePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9C7D9D2A50BCA500736A43 /* LikePhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikePhotoTests.swift; sourceTree = "<group>"; };
+		C3143EBDF60E15E4BC1F7E09 /* Pods-LikePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikePhoto.debug.xcconfig"; path = "Target Support Files/Pods-LikePhoto/Pods-LikePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC541C052A3CB83600946F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA58DDEC98BD6A05A88A814 /* Pods_LikePhoto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C7D982A50BCA500736A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A41F7DBC7E36ACDBF8466E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3143EBDF60E15E4BC1F7E09 /* Pods-LikePhoto.debug.xcconfig */,
+				4F4C4990888906916C3BAE28 /* Pods-LikePhoto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC27FF7B2A47519900AE1DF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC541C0F2A3CB83600946F21 /* ViewController.swift */,
+				AC541C1F2A3CC50400946F21 /* RegistrationView.swift */,
+				AC541C292A4327F000946F21 /* GeneralView.swift */,
+				AC27FF832A47530200AE1DF9 /* TableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC27FF7C2A4751A900AE1DF9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AC541C0D2A3CB83600946F21 /* SceneDelegate.swift */,
+				AC541C0B2A3CB83600946F21 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		AC27FF7D2A4751C300AE1DF9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC541C252A40AA0700946F21 /* ServiceNew.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC27FF822A47526300AE1DF9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AC541C142A3CB83700946F21 /* Assets.xcassets */,
+				AC541C162A3CB83700946F21 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AC541BFF2A3CB83600946F21 = {
+			isa = PBXGroup;
+			children = (
+				AC541C0A2A3CB83600946F21 /* LikePhoto */,
+				AC9C7D9C2A50BCA500736A43 /* LikePhotoTests */,
+				AC541C092A3CB83600946F21 /* Products */,
+				99A41F7DBC7E36ACDBF8466E /* Pods */,
+				CAFFAAED86BC42B14597AAB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC541C092A3CB83600946F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC541C082A3CB83600946F21 /* LikePhoto.app */,
+				AC9C7D9B2A50BCA500736A43 /* LikePhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC541C0A2A3CB83600946F21 /* LikePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				AC541C192A3CB83700946F21 /* Info.plist */,
+				AC27FF7B2A47519900AE1DF9 /* Views */,
+				AC27FF7D2A4751C300AE1DF9 /* Services */,
+				AC27FF7C2A4751A900AE1DF9 /* Delegates */,
+				AC27FF822A47526300AE1DF9 /* Other */,
+			);
+			path = LikePhoto;
+			sourceTree = "<group>";
+		};
+		AC9C7D9C2A50BCA500736A43 /* LikePhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C7D9D2A50BCA500736A43 /* LikePhotoTests.swift */,
+			);
+			path = LikePhotoTests;
+			sourceTree = "<group>";
+		};
+		CAFFAAED86BC42B14597AAB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8090839EA56F9B549A07EDFE /* Pods_LikePhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC541C072A3CB83600946F21 /* LikePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC541C1C2A3CB83700946F21 /* Build configuration list for PBXNativeTarget "LikePhoto" */;
+			buildPhases = (
+				B3D52E9327FDDB066903CDA9 /* [CP] Check Pods Manifest.lock */,
+				AC541C042A3CB83600946F21 /* Sources */,
+				AC541C052A3CB83600946F21 /* Frameworks */,
+				AC541C062A3CB83600946F21 /* Resources */,
+				B22137AE19C3EF94581A2D65 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikePhoto;
+			productName = LikePhoto;
+			productReference = AC541C082A3CB83600946F21 /* LikePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9C7D9A2A50BCA500736A43 /* LikePhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9C7DA32A50BCA500736A43 /* Build configuration list for PBXNativeTarget "LikePhotoTests" */;
+			buildPhases = (
+				AC9C7D972A50BCA500736A43 /* Sources */,
+				AC9C7D982A50BCA500736A43 /* Frameworks */,
+				AC9C7D992A50BCA500736A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9C7DA02A50BCA500736A43 /* PBXTargetDependency */,
+			);
+			name = LikePhotoTests;
+			productName = LikePhotoTests;
+			productReference = AC9C7D9B2A50BCA500736A43 /* LikePhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC541C002A3CB83600946F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AC541C072A3CB83600946F21 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AC9C7D9A2A50BCA500736A43 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC541C072A3CB83600946F21;
+					};
+				};
+			};
+			buildConfigurationList = AC541C032A3CB83600946F21 /* Build configuration list for PBXProject "LikePhoto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC541BFF2A3CB83600946F21;
+			productRefGroup = AC541C092A3CB83600946F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC541C072A3CB83600946F21 /* LikePhoto */,
+				AC9C7D9A2A50BCA500736A43 /* LikePhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC541C062A3CB83600946F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC541C182A3CB83700946F21 /* LaunchScreen.storyboard in Resources */,
+				AC541C152A3CB83700946F21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C7D992A50BCA500736A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B22137AE19C3EF94581A2D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikePhoto/Pods-LikePhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikePhoto/Pods-LikePhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikePhoto/Pods-LikePhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D52E9327FDDB066903CDA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikePhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC541C042A3CB83600946F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC541C2A2A4327F000946F21 /* GeneralView.swift in Sources */,
+				AC541C102A3CB83600946F21 /* ViewController.swift in Sources */,
+				AC541C0C2A3CB83600946F21 /* AppDelegate.swift in Sources */,
+				AC27FF842A47530200AE1DF9 /* TableViewController.swift in Sources */,
+				AC541C0E2A3CB83600946F21 /* SceneDelegate.swift in Sources */,
+				AC541C262A40AA0700946F21 /* ServiceNew.swift in Sources */,
+				AC541C202A3CC50400946F21 /* RegistrationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9C7D972A50BCA500736A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C7D9E2A50BCA500736A43 /* LikePhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9C7DA02A50BCA500736A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC541C072A3CB83600946F21 /* LikePhoto */;
+			targetProxy = AC9C7D9F2A50BCA500736A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC541C162A3CB83700946F21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC541C172A3CB83700946F21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC541C1A2A3CB83700946F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC541C1B2A3CB83700946F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC541C1D2A3CB83700946F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3143EBDF60E15E4BC1F7E09 /* Pods-LikePhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QXSQRUC82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LikePhoto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Skillbox.LikePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC541C1E2A3CB83700946F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4C4990888906916C3BAE28 /* Pods-LikePhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QXSQRUC82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LikePhoto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Skillbox.LikePhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC9C7DA12A50BCA500736A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QXSQRUC82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Skillbox.LikePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikePhoto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LikePhoto";
+			};
+			name = Debug;
+		};
+		AC9C7DA22A50BCA500736A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QXSQRUC82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Skillbox.LikePhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikePhoto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LikePhoto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC541C032A3CB83600946F21 /* Build configuration list for PBXProject "LikePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC541C1A2A3CB83700946F21 /* Debug */,
+				AC541C1B2A3CB83700946F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC541C1C2A3CB83700946F21 /* Build configuration list for PBXNativeTarget "LikePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC541C1D2A3CB83700946F21 /* Debug */,
+				AC541C1E2A3CB83700946F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9C7DA32A50BCA500736A43 /* Build configuration list for PBXNativeTarget "LikePhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9C7DA12A50BCA500736A43 /* Debug */,
+				AC9C7DA22A50BCA500736A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC541C002A3CB83600946F21 /* Project object */;
+}
