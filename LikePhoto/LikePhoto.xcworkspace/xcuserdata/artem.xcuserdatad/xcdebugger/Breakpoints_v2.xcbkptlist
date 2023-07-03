@@ -46,8 +46,8 @@
             filePath = "LikePhotoTests/LikePhotoTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "testExample()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,10 +62,133 @@
             filePath = "LikePhotoTests/LikePhotoTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "testExample()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LikePhotoTests/LikePhotoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LikePhotoTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 3cbd4c87405ee073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.fieldValidator.getter : Swift.Optional&lt;LikePhoto.ViewController&gt;"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 5a5a80e974bb207f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.fieldValidator.setter : Swift.Optional&lt;LikePhoto.ViewController&gt;"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 9b56989e30ab606e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.fieldValidator.modify : Swift.Optional&lt;LikePhoto.ViewController&gt;"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 540b42ab1ad8928f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.fieldValidator.modify : Swift.Optional&lt;LikePhoto.ViewController&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 2b211ce2c78a38a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; LikePhotoTests.LikePhotoTests"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 6020ec2b16a6bf0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.init(selector: ObjectiveC.Selector) -&gt; LikePhotoTests.LikePhotoTests"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "FFB24B73-BBA6-44B2-97F9-6E1B34278B9B - 4fc103194d54d6c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LikePhotoTests.LikePhotoTests.init() -&gt; LikePhotoTests.LikePhotoTests"
+                  moduleName = "LikePhotoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artem/Desktop/kak/for-an-interview/LikePhoto/LikePhotoTests/LikePhotoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
