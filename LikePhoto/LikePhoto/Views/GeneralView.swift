@@ -9,8 +9,8 @@ import UIKit
 import SnapKit
 class GeneralView: UIViewController {
     
-    var hren = ""
-    var hren2 = ""
+    var collect = ""
+
     let pups = Pups()
 
     var collectionImage :[UIImage] = []
@@ -63,7 +63,7 @@ let namePerson = ViewController()
         Pups.shared.APIService { UIImageView, url  in
             
             self.imageSearch.image = UIImageView
-            self.hren = "\(url!)"
+            self.collect = "\(url!)"
             print(self.collectionImage1)
             self.collectionImage.append(self.imageSearch.image!)
         }
@@ -73,7 +73,7 @@ let namePerson = ViewController()
             
         }
         
-        if let data2 = UserDefaults.standard.object(forKey: "b") as? [String] {
+        if let data2 = UserDefaults.standard.object(forKey: "\(namePerson.person)") as? [String] {
             collectionImage1 = data2
         }
  
@@ -105,7 +105,7 @@ let namePerson = ViewController()
         }) { _ in print("Animation Done") }
 
         base.APIService  { UIImageView, url  in
-            self.hren = "\(url!)"
+            self.collect = "\(url!)"
             
                         self.imageSearch.image = UIImageView
 
@@ -116,13 +116,13 @@ let namePerson = ViewController()
 
      
         }
-        self.collectionImage1.append(self.hren)
-        UserDefaults.standard.set(self.collectionImage1, forKey: "b")
+        self.collectionImage1.append(self.collect)
+        UserDefaults.standard.set(self.collectionImage1, forKey: "\(namePerson.person)")
      
     }
     
     @objc func tuchDisLike( _ sender: UITapGestureRecognizer? = nil) {
-        UserDefaults.standard.removeObject(forKey: "b")
+  
     
         self.imageSearch.alpha = 0.0
         UIView.animate(withDuration: 0.5, delay: 0.5, options: .curveEaseInOut, animations: {
@@ -135,7 +135,7 @@ let namePerson = ViewController()
    
         base.APIService { UIImageView, url  in
                     self.imageSearch.image = UIImageView
-            self.hren = "\(url!)"
+            self.collect = "\(url!)"
                 }
 
     }

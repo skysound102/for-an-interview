@@ -10,6 +10,7 @@ import SnapKit
 class TableViewController: UIViewController{
     var collectionArrayImage = [UIImage]()
     let dannye = GeneralView()
+    let namePerson = ViewController()
 
     
     
@@ -22,6 +23,11 @@ class TableViewController: UIViewController{
     
     
     override func viewDidLoad() {
+        
+        if let data = UserDefaults.standard.value(forKey: "person") as? String {
+            namePerson.person = data
+            
+        }
         DispatchQueue.main.async {
      
             self.tableView.reloadData()
@@ -29,7 +35,7 @@ class TableViewController: UIViewController{
         }
         
         
-        if let data2 = UserDefaults.standard.object(forKey: "b") as? [String] {
+        if let data2 = UserDefaults.standard.object(forKey: "\(namePerson.person)") as? [String] {
             dannye.collectionImage1 = data2
             print(dannye.collectionImage1)
         }
