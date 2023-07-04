@@ -17,12 +17,7 @@ var person = ""
         
         
         for ( _, value) in array.enumerated() {
-//                        guard value.name == searchValue || value.password == searchValue2 else {
-//                            let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
-//                            alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-//                            self.present(alert, animated: true, completion: nil)
-//                                return
-//                        }
+
             
             if value.name == searchValue && value.password == searchValue2  {
                 person = searchValue
@@ -32,52 +27,12 @@ var person = ""
                 return
             }
    
-        
-//
-//            if value.name != searchValue || value.password != searchValue2  {
-//                let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
-//                alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
-//
-//            }
-            
-//            if value.name == searchValue && value.password != searchValue2  {
-//                let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
-//                alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
-//
-//            }
-//
-//            if value.name != searchValue && value.password == searchValue2  {
-//                let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
-//                alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-//                self.present(alert, animated: true, completion: nil)
-//
-//            }
-            
 
-    
-       
-            
-        
-
-//
-//            if value.name == searchValue {
-//                    guard value.password == searchValue2 else{
-//                        let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
-//                        alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-//                        self.present(alert, animated: true, completion: nil)
-//                        return
-//                    }
-//            }
-            
-            
-            
         }
 
-                        let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
-                        alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-                        self.present(alert, animated: true, completion: nil)
+            let alert = UIAlertController(title: "Внимание!", message: "Неверный логин или пароль", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
     
   
     }
